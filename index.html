@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvitaWeb - Invitaciones Digitales Profesionales</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header y Navegación -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-envelope-open-text"></i>
+                <span>InvitaWeb</span>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#proceso">Proceso</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Invitaciones digitales que marcan la diferencia</h1>
+                    <p>Transformamos tus eventos especiales en experiencias únicas con invitaciones web personalizadas, interactivas y elegantes. Llega a tus invitados de una manera moderna y memorable.</p>
+                    <div class="hero-btns">
+                        <a href="#servicios" class="btn">Nuestros Servicios</a>
+                        <a href="#contacto" class="btn btn-secondary">Solicitar Presupuesto</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Invitación digital de boda">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section class="section services" id="servicios">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros Servicios</h2>
+                <p>Ofrecemos una gama completa de servicios para crear invitaciones web únicas y personalizadas para cualquier tipo de evento.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <h3>Invitaciones de Boda</h3>
+                    <p>Diseños elegantes y románticos que capturan la esencia de tu amor. Incluyen RSVP integrado, galería de fotos y detalles del evento.</p>
+                    <a href="#contacto" class="btn">Solicitar Información</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <h3>Fiestas y Cumpleaños</h3>
+                    <p>Invitaciones divertidas y creativas para celebrar momentos especiales. Con animaciones, cuenta regresiva y opción de regalos.</p>
+                    <a href="#contacto" class="btn">Solicitar Información</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Eventos Corporativos</h3>
+                    <p>Diseños profesionales para lanzamientos, conferencias y reuniones de empresa. Con registro de asistencia y agenda del evento.</p>
+                    <a href="#contacto" class="btn">Solicitar Información</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Portafolio -->
+    <section class="section portfolio" id="portafolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestro Portafolio</h2>
+                <p>Descubre algunos ejemplos de las invitaciones web que hemos creado para nuestros clientes satisfechos.</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Boda en la playa">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Boda en la Playa</h3>
+                        <p>Diseño tropical con palmeras y tonos azules, incluye mapa interactivo y lista de regalos.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Fiesta de cumpleaños">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Cumpleaños 30</h3>
+                        <p>Estilo moderno con animaciones y cuenta regresiva, incluye opción de confirmación de asistencia.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Evento corporativo">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Lanzamiento de Producto</h3>
+                        <p>Diseño corporativo elegante con agenda detallada y formulario de registro para asistentes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proceso -->
+    <section class="section" id="proceso">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestro Proceso</h2>
+                <p>Te guiamos paso a paso para crear la invitación web perfecta para tu evento especial.</p>
+            </div>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Consultoría Inicial</h3>
+                    <p>Analizamos juntos el tipo de evento, estilo deseado y funcionalidades necesarias para tu invitación web.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Diseño Personalizado</h3>
+                    <p>Nuestro equipo de diseñadores crea un prototipo único que refleja la esencia de tu evento.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Desarrollo Web</h3>
+                    <p>Desarrollamos la invitación web con todas las funcionalidades acordadas, totalmente responsiva.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Lanzamiento y Soporte</h3>
+                    <p>Publicamos tu invitación y te brindamos soporte continuo hasta el día del evento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Lo que dicen nuestros clientes</h2>
+                <p>La satisfacción de nuestros clientes es nuestra mejor garantía.</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Las invitaciones web que crearon para nuestra boda fueron absolutamente perfectas. Todos nuestros invitados quedaron impresionados con el diseño y la facilidad para confirmar su asistencia."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="María González">
+                        </div>
+                        <div class="author-info">
+                            <h4>María González</h4>
+                            <p>Novia satisfecha</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section class="section contact" id="contacto">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contáctanos</h2>
+                <p>¿Listo para crear la invitación web perfecta para tu evento? ¡Estamos aquí para ayudarte!</p>
+            </div>
+            
+            <div class="contact-form">
+                <!-- MODIFICADO: Agregar action, method y name a los campos -->
+                <form id="contactForm" action="https://formspree.io/f/xkoogeky" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nombre completo</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="eventType">Tipo de evento</label>
+                        <select id="eventType" name="eventType" class="form-control" required>
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="wedding">Boda</option>
+                            <option value="birthday">Cumpleaños/Fiesta</option>
+                            <option value="corporate">Evento Corporativo</option>
+                            <option value="other">Otro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Cuéntanos sobre tu evento</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    
+                    <!-- Campos ocultos para Formspree -->
+                    <input type="hidden" name="_subject" value="Nueva solicitud de invitación web - InvitaWeb">
+                    <input type="hidden" name="_replyto" id="replyto">
+                    <input type="text" name="_gotcha" style="display:none">
+                    
+                    <button type="submit" class="btn" style="width: 100%;">Enviar solicitud</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Información de Contacto -->
+    <section class="section contact-info">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contáctanos Directamente</h2>
+                <p>Estamos aquí para ayudarte a crear la invitación perfecta</p>
+            </div>
+            
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Teléfono</h3>
+                    <p>+1 (555) 123-4567</p>
+                    <p>Lunes a Viernes: 9am - 6pm</p>
+                </div>
+                
+                <div class="contact-method">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>info@invitaweb.com</p>
+                    <p>Respuesta en menos de 24 horas</p>
+                </div>
+                
+                <div class="contact-method">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Dirección</h3>
+                    <p>Av. Principal 123, Ciudad</p>
+                    <p>Ciudad, País</p>
+                </div>
+                
+                <div class="contact-method">
+                    <div class="contact-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>+1 (555) 123-4567</p>
+                    <p>Chat directo con nuestro equipo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>InvitaWeb</h3>
+                    <p>Especialistas en crear invitaciones web únicas y memorables para todo tipo de eventos. Transformamos tus celebraciones en experiencias digitales inolvidables.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Servicios</h3>
+                    <ul class="footer-links">
+                        <li><a href="#servicios">Invitaciones de Boda</a></li>
+                        <li><a href="#servicios">Fiestas y Cumpleaños</a></li>
+                        <li><a href="#servicios">Eventos Corporativos</a></li>
+                        <li><a href="#servicios">Diseño Personalizado</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Principal 123, Ciudad</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@invitaweb.com</li>
+                        <li><i class="fas fa-clock"></i> Lunes a Viernes: 9am - 6pm</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 InvitaWeb. Todos los derechos reservados. | <a href="#" style="color: #a78bfa;">Política de Privacidad</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
